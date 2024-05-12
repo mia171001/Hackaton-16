@@ -7,7 +7,8 @@ function AddTask({ addTask }) {
         setTaskInput(event.target.value);
     };
 
-    const handleAddTask = () => {
+    const handleAddTask = (event) => {
+        event.preventDefault();
         if (taskInput.trim() === "") {
             alert("Por favor, ingresa una tarea válida.");
             return;

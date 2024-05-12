@@ -27,6 +27,7 @@ function App() {
     <div className="container">
       <h1>TodoList</h1>
       <AddTask className="addT" addTask={addTask} />
+
       <ul id="task-list">
         {tasks.map((task, index) => (
           <li key={index}>
