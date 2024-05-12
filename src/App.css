@@ -1,0 +1,56 @@
+#task-list {
+  list-style: none;
+
+
+
+}
+
+#task-list li input[type="checkbox"] {
+  width: auto;
+}
+
+
+
+.btnD {
+  background-color: lightblue;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+body {
+
+  background-color: hotpink;
+  text-align: center;
+
+}
+
+
+
+
+h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+
+}
+
+.btnAdd {
+  background-color: bisque;
+  border: 1px solid black;
+  color: black;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+}
